@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="ls"/>
+      <UseAppBundle Value="False"/>
+      <ResourceType Value="res"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <Units Count="52">
+      <Unit0>
+        <Filename Value="ls.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="azss.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="AZSS"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="ballistic.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Ballistic"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="baseflag.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="BaseFlag"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="baseweapons.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="BaseWeapons"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="benchmark.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Benchmark"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="bigtext.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="BigText"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="bosses.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="botwizard.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="BotWizard"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="charges.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Charges"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="clusterbombs.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ClusterBombs"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="configs.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="constants.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Constants"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="damage.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Damage"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="debug.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Debug"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="dummy.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Dummy"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="earthquake.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="EarthQuake"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="exceptionhandler.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ExceptionHandler"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="fire.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Fire"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="flashmsg.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FlashMSG"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="globals.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Globals"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="hax.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Hax"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="ini.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="INI"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="kits.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Kits"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Main"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="mapslist.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="maprecords.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="MapRecords"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="mapvotes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="MapVotes"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="maths.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Maths"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="mersennetwister.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="MersenneTwister"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="landmines.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="misc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Misc"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="gamemodes.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="objects.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Objects"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="placeplayer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="PlacePlayer"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="lsplayers.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="raycasts.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="scarecrows.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="scriptcore.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Scriptcore"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="sentrygun.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="spawner.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Spawner"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="stacks.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Stacks"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="statguns.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Statguns"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="strikes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Strikes"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="tasks.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Tasks"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="utils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Utils"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="weaponmenu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="WeaponMenu"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="weapons.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Weapons"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="barbedwires.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="BarbedWires"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="zombies.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Zombies"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="taskpolice.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TaskPolice"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="taskmedic.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TaskMedic"/>
+      </Unit51>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="ls"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <SyntaxMode Value="Delphi"/>
+        <CStyleOperator Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <Optimizations>
+        <OptimizationLevel Value="0"/>
+      </Optimizations>
+    </CodeGeneration>
+    <Other>
+      <CompilerMessages>
+        <IgnoredMessages idx5092="True" idx5091="True" idx5090="True" idx5089="True" idx5057="True" idx5036="True" idx5024="True"/>
+      </CompilerMessages>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

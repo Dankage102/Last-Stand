@@ -1,0 +1,1840 @@
+; dP        .d88888b      888888ba             dP
+; 88        88.    "'     88    `8b            88
+; 88        `Y88888b.    a88aaaa8P' .d8888b. d8888P .d8888b.
+; 88              `8b     88   `8b. 88'  `88   88   Y8ooooo.
+; 88        d8'   .8P     88    .88 88.  .88   88         88
+; 88888888P  Y88888P      88888888P `88888P'   dP   `88888P'
+
+
+;                         dP
+;                         88
+; .d8888b. 88d888b. .d888b88
+; 88'  `88 88'  `88 88'  `88
+; 88.  .88 88    88 88.  .88
+; `88888P8 dP    dP `88888P8
+
+
+;   dP                                dP
+;   88                                88
+; d8888P .d8888b. dP    dP 88d888b. d8888P .d8888b.
+;   88   88'  `88 88    88 88'  `88   88   Y8ooooo.
+;   88   88.  .88 88.  .88 88    88   88         88
+;   dP   `88888P8 `88888P' dP    dP   dP   `88888P'
+
+;INDEX: I. Regular Maps Bots and taunts II. Haxmaps Bots and taunts
+
+;   SUBINDEX regular Maps Bots and taunts
+;       1. normal zombies
+;       2. vomits
+;       3. burning
+;       4. kamikazes + ticking
+;       5. Firefighter and flames
+;       6. Satan (1+2)
+;       7. Butcher and parts
+;       8. Priest and altar boys
+;       9. Plague and friends
+;      10. Placeable dummies
+;      11. Special zombs from 'normal' section.
+;      12. Zombify
+
+;   SUBINDEX Haxmaps Bots and taunts        [section starts line ~1240]
+;       1. normal Haxzombies
+;       2. Haxvomits
+;       3. Haxburning
+;       4. Haxkamikazes + ticking
+;       5. HaxFirefighter and flames
+;       6. HaxSatan (1+2)
+;       7. HaxButcher and parts
+;       8. HaxPriest and code monkeys
+;       9. HaxPlague and friends
+;      10. HaxPlaceable dummies
+;      11. HaxSpecial zombs from 'normal' section.
+;      12. HaxZombify
+
+
+; -------------------1. normal zombies ----------------------
+; Zombies with special taunts and look are marked with 1
+
+[Zombies]
+Brainy Allegheny=0
+Undead Jack Seizmore=0
+Bone Toothpick Juanita=0
+Missing Mandable Melvin=0
+Hiro the Gutless=0
+Rott Wilder=0
+Club Foot=0
+No Feet=0
+Jasmine Boneforhands=0
+One Eyed William=0
+Mmrgh=0
+Mort A Mortis=0
+Slim James=0
+Damn Flanders=0
+Cavity Chompsky=0
+Carol Channing=0
+Fanger=0
+Foos=0
+Forever Calvin=0
+Obanyan Human Juice=0
+Cut 'n' Shoot Johnson=0
+Open Sole Shoemaker=0
+Meredith the Deaf=0
+"Gah!" Simons=0
+Embalming Tyrone=0
+Run For the Hilliard=0
+Juan of the Seared Flesh=0
+The Stumbler=0
+Jacob's Stepstool=0
+Underworld Ted=0
+Jacon Bloodless=0
+Dead Pirate Wesley=0
+Struwwelpeter=0
+Brain Daddy=0
+Skull Cracker Isaiah=0
+The Hungry One=0
+The Groaner=0
+Frodo the Nine Fingered=0
+Graveyard Betty=0
+Resident Idle=0
+Vincent vanNoEars=0
+Harold Bitemark=0
+Holden in the Shadows=0
+The Late Gerald=0
+No More Lisa=0
+No More Dev Shoozza=0
+Gina Cadaverous=0
+Larry the Lifeless=0
+Unanimated Toby=0
+Jenna H, Dearly-Departed=0
+Louis K Blooey=0
+Living Dead Fabulous=0
+Smells like Jb=0
+Torn Shirt, the Howler=0
+Eye Socket Kate=0
+Doug Blue/Green=0
+Barney One-Shoe=0
+Still Dancing Hemphill=0
+Dahmer's Number Two Fan=0
+Hellspawn=0
+Aimless Andrew Atkins=0
+Reanimated Marshall=0
+Keith Richards=0
+Grey Matter Stew=0
+Punching Glass Elliot=0
+Dick "Vacant Stare" Weir=0
+Jawbone=0
+Senor Toadstool=0
+No Skin No Pain Amanda=0
+Dirk Dirt Hands=0
+Gulletless the Scarce=0
+Almost-A-Ghost Gary=0
+Was Wilcox=0
+Returned to Sender=0
+Putrified Half Nelson=0
+The Sound of Silas=0
+Bowel Powell=0
+Unknown Zombie=0
+Untold Horror=0
+Seymore Guts=0
+Moss Blanket=0
+Janet Coffin Splinter=0
+Rob=0
+Mr Dead=0
+Unlively Unlikely Unger=0
+Timmy the Torso=0
+Re: Bob=0
+James Monroe=0
+Le Petit Mort=0
+Flannel Patch Odums=0
+Six Foot Underhill=0
+Gene Grey=0
+Princess Eliza=0
+Hank the Wobble=0
+Entrails the Mighty=0
+Naked and Famous Al=0
+Pontiac Empty Soul=0
+Aunt Festerly=0
+Ella Gently Wasted=0
+Smells Like A Spirit=0
+Eye-for-an-eye Hannibal=0
+Jimmy Hoffa=0
+Displaced Diana=0
+The Bloat=0
+Mitch Hedberg=0
+Dark 'n' Twisty Jules=0
+Push Came to Shove Elias=0
+Emily Dead-As-A-Post=0
+The Littlest Zombie=0
+Driveshaft Ribcage Nick=0
+Shorty the Crawler=0
+Determined Zhi=0
+Donald Eats-with-a-lisp=0
+The Wake Rider=0
+Next of Kin Finn=0
+Clairvius Narcisse=0
+IC Fingers=0
+Stormtrooper number 16=0
+The Thriller=0
+Amelia Earhart=0
+Ira "Pain" Glass=0
+St Jimmy=0
+Optimus Prime=0
+Stormcrow=0
+8 Lives Gone Yusuf Islam=0
+Porridge Head=0
+Nick Necroplis=0
+Ruth-less Pennebaker=0
+FW "Five and Dime"=0
+Creepy McCreep=0
+The Gaping Maw of Rick=0
+Sky "Burial" Masterson=0
+Is-hor, the Shadow-Soul=0
+Mors Venti=0
+Coagulated McTavish=0
+Diagenisis the Greek=0
+James Ossuary=0
+Sheol Shirker=0
+Bloodblister Bret=0
+Hell-less Les=0
+Olli the Draugr=0
+Zach, Mohrg Tsar=0
+Family Plot Eunice=0
+"Just a child" Max=0
+Benny the Zombie Dog=0
+Gregg Berry'd "Alive"=0
+Clammy Hands Sophie=0
+Dancing Qualia=0
+Spalding Grey=0
+Felicia Mentor=0
+Duncan Idaho=0
+Inert Bert=0
+Short Form Wormy=0
+Jerry or Cherry Garcia=0
+Shaun=0
+Curly=0
+The Inventor=0
+Brainy Bag=0
+Brandon Lee=0
+The Duke=0
+Lewis Fall Down=0
+Harvey Turnbolt=0
+Grunge-head=0
+Cecilia Twice Bitten=0
+The Idiot=0
+Betamax=0
+Ol' Grey Eye=0
+Franklin Road Eater=0
+The Accountant=0
+Tyler Chain Link=0
+Blockade Runner=0
+Bacterium Barry=0
+Viral Viola=0
+Infected Isaac=0
+Yellow Nails the Grabber=0
+Pushing-up Daisy=0
+Ellouise Eye Strain=0
+The Jaws of Lifeild=0
+Governor Richards=0
+Missing Linkletter=0
+Sick-day Again Erin=0
+Calling-in Dead Brian=0
+Ridley=0
+Wilma the Dying=0
+Colonel Robert Neville=0
+Wade Davis=0
+Fela Kuti=0
+Bloated Belinda=0
+Cassius Methane-Skin=0
+The Scourge=0
+Fly Nest Philmore=0
+Milo Ever Present=0
+Voodoo Princess Zora=0
+Lurk and Lunge Lemuel=0
+Chianna Dehuman=0
+The Tarp Holder=0
+Wayne The Lottery Winner=0
+Face Wound Adrian=0
+Unidentified Victim=0
+Tiger Lover Aertz=0
+Suffocated Villalba=0
+Canary Island Eustaquio=0
+Ice Kubicki=0
+Takako The Famished=0
+Seaman Roberts=0
+Blood Graffiti Lozito=0
+Tonya Bird-Flu=0
+Dave the No-Pupiled=0
+Overboard the Soggy=0
+Ping the Hopping Corpse=0
+The Drekavac=0
+The Monk=0
+Sidewalk Rage Abu=0
+Spent Kent=0
+Doctor Torpid=0
+Skin-Flap the Ephemeral=0
+Diseased James Wilson=0
+Reid, Sans Insurance=0
+Moaning Jaeyaena=0
+The Shotgun Stopper=0
+Post-Carious Emily=0
+Alex Crosby, Emo Zombie=0
+Blue the Beta Fish=0
+Mr He the Flying Icicle=0
+Radioactive Carol=0
+Smothered Mrs Smothers=0
+Sacha the Rabid Squirrel=0
+The Protester=0
+Nicola The Escort=0
+Preston Deceased=0
+The Fifth Rockefeller=0
+The Naturalist=0
+The President=0
+The Engineer=0
+The Poet=0
+The Explorer=0
+The Composer=0
+One Hour Salant=0
+Roger KIA McClennan=0
+Accessory Maggot Amy=0
+Spaceman Skull=0
+The Earl of Pembroke=0
+Hairless Ben Dekkar=0
+JDE III RIp=0
+Madman Edgar=0
+Puncture Wound Luke=0
+Broken Hearted Simon=0
+The Naked Zombie=0
+Charred and Weathered=0
+The Mexican Dog=0
+Ol' Blue Lips=0
+Sauntering Abscess=0
+Josef Overall Contusion=0
+Meatpuppet=0
+Kepler the Repellent=0
+The Kung-Fu Zombie=0
+The Tumor King=0
+Shorty the Jumper=0
+Clink=0
+Mystery, New Mexico=0
+Empty Skull John Seconds=0
+Animal Attack Kamensky=0
+The Spine=0
+Triage Terry=0
+Kevin the Uninsured=0
+Mostly Bones Roland=0
+Principal Skinned=0
+Austin the Fit Zombie=0
+Dead in 14 States Ford=0
+Hello Gimpy=0
+The Sturdy Miles Night=0
+The Eternally Bound=0
+08 Skip=0
+Swing-and-a-miss Derrick=0
+Mr Hill, Post Seizure=0
+Rotten Robbie=0
+Buttered Brains=0
+The Fingernails of Doom=0
+Sulfur Cedric=0
+Scarback the Tortured=0
+Almost-Made-It Delores=0
+Dr Jack's Dad=0
+Price Albert=0
+Sergeant Peabody=0
+Father Bill Newmark=0
+Limp=0
+Rend Assunderman=0
+Formerly Mark=0
+El Zombero=0
+The Backwatcher=0
+Reaching Matilda=0
+Red Headed Step Child=0
+Pinin' for the Fjords=0
+Prunes, A Burro=0
+The Hanover Headsplit=0
+Charles Gnarled=0
+Dangling Chad=0
+Trent Reznor=0
+The Scab=0
+The Highway Stroller=0
+Decrepit Webster=0
+Lil' Screwdriver Head=0
+Ol' Green Scalp=0
+Flaps the Suicide Pilot=0
+Drew Blood=0
+Ivan the Terribly Morose=0
+Noose-neck Hildebrandt=0
+Bloodbrain aka The Count=0
+Danny Elfman=0
+The Prince of Murkiness=0
+Chapoy the Quaker=0
+The Happy Zombie=0
+Milky Stare=0
+Nail Gun Robinson=0
+Remains of The Day=0
+Mad Cow Gruene=0
+S Andre Asphalt=0
+Nightshade Sally=0
+Limb-skirt Paulina=0
+His Royal Majesty=0
+Open Sores Theodore=0
+The New York Straggler=0
+Center Mass Mathias=0
+"No Comment" Peter=0
+Just a Coma Christa=0
+Captain America=0
+The Rock Zombie=0
+The Denver Cadaver=0
+Casket Buster the Strong=0
+Dr Lawrence, the Living=0
+The Flesh Connoisseur=0
+The Abbot of Burton=0
+Hurston the Lethargic=0
+Zombie Jogger Eric Eaton=0
+Wight Cliff, from Dover=0
+Revenant William=0
+Jeriba "Jerry" Shigan=0
+"Whoopsie" Anton Cermak=0
+Own Goal Escobar=0
+Poison Tongue Francis=0
+Grigory Rasputin=0
+A Pox on Anthony=0
+The White Zombie=0
+Horatio the Devouring=0
+Burd the Educator=0
+The Waffle Zombie=0
+Twice Cursed Marcia=0
+Samuel the Shovel-Headed=0
+Toxicimo=0
+Joan Pinched-Face=0
+Yukio "Yuki" Araki=0
+Cui the Healer=0
+The Romanian Plum=0
+Nedelin the Scorched=0
+Backseat Zombie=0
+Slumped Joseph=0
+Lopatka the Frustrated=0
+The Maniac Zombie=0
+Homer the blind Hoarder=0
+Throat Whistle Sherwood=0
+Final Lap Frank Hayes=0
+Bug Eyed Ian=0
+Victim #=0
+Redshirt the Expendable=0
+Alley Walker Roger=0
+The Peruvian Undead=0
+Empty Ribcage Devon=0
+The Healthy Nora=0
+Blind Spot Wayne=0
+The Italian Guasto=0
+Aston Drawn-n-Quartered=0
+Bloody Mess=0
+Self Mutilated George=0
+The Infested Raymond=0
+One Armed Yang=0
+Stab Wound, H Bedford=0
+The Body Tattoo Zombie=0
+iZombie=0
+The Rise of Lee=0
+Chet Hairy=0
+Miss April, 1965=0
+Ground Sifter Conrad=0
+Black Sheep=0
+Faron the Empty Headed=0
+Rooftop Carl=0
+The Stench of Crawford=0
+Gouged Eyes Aliyah=0
+Ol' Crypt Breath=0
+Body Bag Moore=0
+Morgue Roamer Nauman=0
+Julius Caesar=0
+Augustus Caesar=0
+Clamato Caesar=0
+Sanchez the Tiny Zombie=0
+Skinned Mafui=0
+Empty Vessel=0
+Mere Shell of Amanda=0
+The Foul Grip of Boris=0
+Street-level Dawn Derks=0
+Blood Spackled Cole=0
+The Carmelengo=0
+The Zombie Kisser=0
+Nerve Gas Lou=0
+Tony the Membrane=0
+Easy Way Out Jeremy=0
+Dyson the Useless Skater=0
+zombie inside=0
+Junk Food Zombie=0
+Sharp Tooth the Biter=0
+Vomitorium Linda Ulreich=0
+Euthanized Uriel=0
+A Moratorium on Florence=0
+Celia the Salsa Zombie=0
+The Decay of Edmond=0
+Canker Christian Cassin=0
+Human Popsicle Darcy=0
+Oozing Gashes Cody=0
+The Latvian Lesion=0
+Sliced-n-Diced Julianne=0
+Death by Chocolate=0
+Julio from the Beyond=0
+Odessa Ost: In Repose=0
+Tomb Raiser=0
+Obit Orsino=0
+Jami the Grey Nude=0
+Aeacus=0
+Unthinking Lance=0
+The Automatons of Maine=0
+Freaky Fernando Fannon=0
+Unholy Molly=0
+Trash Sifter Neil=0
+Serena the Lost=0
+The Marrow of Rosemary=0
+Nick Nolte=0
+Joshua "The" Pitts=0
+Slain in Waiting=0
+Farmer Maggot=0
+Reta Mittens=0
+Painless Now, Lorri Sirk=0
+The Scrape=0
+Bloddy Cuffs Bridget=0
+The Dank Yank=0
+Fits of Terrence=0
+Breadbasket the Haunting=0
+Alejandro Slimy-Face=0
+The Omen from Oman=0
+Aberzombie and Ditch=0
+Bloodthirsty Phoebe=0
+Skullcrusher Montana=0
+Scar=0
+Keening McShean=0
+Skinbag Mr Wendell=0
+Rhea the Zombie Mistress=0
+Alex Murphy=0
+The Hartford Wailer=0
+Cellar Bound Antonio=0
+Damon "Road-rash" Jayo=0
+"Fire Bad!" Ione Krag=0
+The Screech=0
+Ol' Yellow Eyes=0
+The Grindhouse Gambler=0
+Intestines Melusky=0
+The Zombie Pimpernel=0
+Son-Goku=0
+Flesh Eating Sirus=0
+The Worm King=0
+Kelvin The Berserker=0
+The Inhuman Condition=0
+Marcus Carcass=0
+Marion Carrion=0
+Erlinda the Relic=0
+Patient Zero=0
+Zombie tk`=1
+Zombie Shadow=0
+Hungry Pavliko=0
+Zombie Metal Warrior=0
+rumpeLat0r=0
+Zombie BombSki=0
+Zombie Spkka=0
+Zombie sai`ke=0
+Moaning Zombie=0
+Zombie lewymati=0
+Zombie dnmr=0
+Sexy Saike=0
+Denorboized Gizd=0
+Shattered Savage=0
+Homophobic Harry=0
+Brainless wolf=0
+Zombunkulus=0
+Sir Guttalot=1
+Sideshow Bob=1
+
+
+[TauntsKill]
+Uh? Where's the brain?
+You're a walking fail!
+Uhhh
+Moehahaha!
+Gimme more!
+Meat!
+Fear me!
+Fresh blood
+Gulp'
+Mooaar!
+Tasty brain!
+
+[TauntsDie]
+Grmgmlb
+Arrggh
+Bwrrrr
+Grrrrr
+Mmrrrr
+Vrrrghr
+Mlearh
+Krhgl!
+Mlearh
+I'm not a monster! Okay - technically i am.
+
+[TauntsDmg]
+Bluhhh 
+Gimme brain
+UhRh 
+GrrRrrhh
+Ahhrgh
+Hrrrgh
+Wanna meat! Grrhhr!
+
+
+[TauntsSee]
+Grmgmlb
+Arrggh
+Bwrrrr
+Grrrrr
+Mmrrrr
+Vrrrghr
+Mlearh
+Krhgl!
+Mlearh
+Grmgmlb
+Arrggh
+Bwrrrr
+Grrrrr
+Mmrrrr
+Vrrrghr
+Mlearh
+Krhgl!
+Mlearh
+Brains!
+Gorrrrrrre!
+Moar!
+Brains!
+Gorrrrrrre!
+Moar!
+I smell brains!
+Fresh meat!
+Blood!
+I'm gonna eat your brain!
+Meat here!!
+I will swallow your soul!
+I smell brains!
+Fresh meat!
+Blood!
+I'm gonna eat your brain!
+Meat here!!
+I will swallow your soul!
+Flesh!
+New brraain!
+Nice to meat you!
+I see living people!
+I really wish you'd let us in
+All we want to do is eat your brains
+We're not unreasonable, I mean, no one's gonna eat your eyes
+Things have been ok for me - except that I'm a zombie now
+I want to think this uncalled agression thru - can i have your brain plz?
+Here's an FYI. You're all gonna die.
+
+[TauntsWin]
+Brains!
+Gorrrrrrre!
+Moar!
+; ------------------- 2. vomits ----------------------
+[Vomiting]
+Llama Drama=0
+Alpaka Mathafacka!=0
+Guanaco loves Taco=0
+Vicunja from Corunja=0
+Regan MacNeil=0
+Puking Pavliko=0
+Brian the dog=0
+Veronica Vomit=0
+Vomitoxy=0
+Heaving Harald=0
+Emitting Eric=0
+Throw up Tammy=0
+Intoxicated Ionwood=0
+Drunken Devas=0
+Bulimic Bernadette=0
+Gastric Acid-Elemental=0
+
+[TauntsKill_Vomiting]
+Your brain tastes nasty.... Bleaaaaaaaarehhhh!
+I would eat you, but you got vomit all over you!
+I will spit you out again, eventually!
+
+[TauntsDie_Vomiting]
+My tummy hurts. So. much.
+I am sick!
+At least i don't have to spend more time on the toilet.
+
+[TauntsDmg_Vomiting]
+I am already sick, leave me alone!
+I will puke even harder, if you dont stop!
+Vomit habe ich das verdient?
+Smells like a used diaper... filled with... indian food.
+
+[TauntsSee_Vomiting]
+Take these gastric fluids!
+You make me wanna puke...
+I think i have to throw up...
+Bleaaaaaaaarehhhh!
+I am sick
+
+[TauntsWin_Vomiting]
+Brains!
+Gorrrrrrre!
+Moar!
+
+[TauntsVomit_Vomiting]
+You make me vomit!
+Bluhhhr!
+Bluhhhr!
+Mlearhh!
+You didn't shower in months! Bluuuhr!
+Prhhh!
+Ulhrr!
+Prhhh!
+Ulhrr!
+Blurhh!
+Brrhhg!
+Blurhh!
+Arghhr!
+
+; ------------------- 3. burning zombies ----------------------
+[Burning]
+The human torch=0
+Joan of Arc=0
+Pyromaniac=0
+Hellburner=0
+Mr. Burns=0
+Emily Ember=0
+Bonfire Bob=0
+Flamethrower=0
+Charcoal Charly=0
+Olivia Oxygen=0
+Combusting Clarissa=0
+Smoking Sandmann=0
+Firey Falcon=0
+Glowing Gecko=0
+Igniting Ingi=0
+Flaming Formax=0
+Heretic=0
+Smelting Sam=0
+
+[TauntsKill_Burning]
+I love the smell of burning humans in the morning.
+BBQ!
+It's gettin hot in here, so burn off all your cloths!
+Nice blister, man!
+Burn, burn, yes ya gonna burn
+Inferno has come!
+
+[TauntsDie_Burning]
+The human torch was denied a bank loan.
+You got fireextinguishers? No fair!
+I will call uncle Firefighter!
+This was just a bonfire! Inferno is coming!
+I went down, down, down. And the flames went higher.
+
+[TauntsDmg_Burning]
+Uuuuh, that burns!
+That will leave a burnmark
+I need some ointment!
+Need more oxygen!
+
+[TauntsSee_Burning]
+Come on baby light my fire!
+We are the firey brothers! Don't get along with others!
+I'll see you burn.
+Did someone spill Gasoline?
+I feel so ignited!
+And it burns, burns, burns. That ring of fire!
+You're charcoal, pal!
+B-b-b-buuuuurn!
+Call me Mr. Burns!
+
+[TauntsWin_Burning]
+Burn!
+
+
+; ------------------- 4. kamikazes and ticking ----------------------
+[Kamikaze]
+Explosive zombie=0
+TNT eater=0
+Kamikaze zombie=0
+Sex bomb=0
+Explosive Simon=0
+Time bomb zombie=0
+Goliath mine=0
+Nitromasta=0
+Demolition zombie=0
+The Detonator-Headed=0
+Trinitrotoluene-filled=0
+Guy Fawkes=0
+The Charged One=0
+Kamikaze=0
+Nitro puppet=0
+Hot Antonio=0
+William with matches=0
+Officer TNT=0
+Toxie bomb=0
+Hellbomb=0
+"Nitro"=0
+Dr.Dynamite=0
+Kamiquasi Steve=0
+Molotov Cocktail=0
+Tojos toppilot=0
+Remote Roger=0
+Bomb 20=0
+The F-Bomb=0
+
+[TauntsKill_Kamikaze]
+I take you with me!
+Kabooom!
+EXPLOSION!
+The bomb has been planted!
+Fireworks! 
+TNT!... and Dynamite!
+Bang!
+BANG!
+BOOM!
+Boom!
+Kablam!
+Blamo!
+Bombtastic!
+
+[TauntsDie_Kamikaze]
+Boy, that escalated quickly!
+Triggerd.
+Bombs away!
+72 virgins await me!
+Bang, bang. You shot me down. Bang, bang. I hit the ground.
+The bomb has been defused.
+
+[TauntsDmg_Kamikaze]
+Ouch! Dont't make me explode into your face!
+Do not trigger me!
+I am programmed to detonate!
+This fuse is on fire!
+
+[TauntsSee_Kamikaze]
+Banzaaaai!
+Atomic Bomberman!
+Hey yo, it's just another bombtrack!
+Sexbomb, sexbomb, you're a sexbomb! I am too, just w/o sex...
+Oh hello! Wanna see my big 10 inch bomb?
+
+[TauntsWin_Kamikaze]
+Win
+
+[KamikazeBoss]
+Name=Ticking bomb
+Dummy=0
+Color1=$FF0000
+Color2=$FF0000
+Skin_Color=$00FF0000
+Hair_Color=$00FF0000
+Hair=1
+Headgear=0
+Chain=0
+Chat_Frequency=7
+Chat_Kill=
+Chat_Dead=
+Chat_Lowhealth=
+Chat_SeeEnemy=My watch is broken, can you come and fix it?
+Chat_Winning=
+
+[TauntsExplode_TickingBomb]
+Tick, tick, TICK!
+Tick, tick, TICK!
+Tick, tick, TICK!
+Tick, tick?!
+
+[TauntsExplodeClose_TickingBomb]
+ALLAHU AKBAR!
+ALLAHU AKBAR!
+ALLAHU AKBAR!
+ALLAHU AKBAR!
+YOU BETTER BELIEVE IN THE WATCHMAKER ARGUMENT!
+TAKBIR!
+ALHAMDULILLA!
+Directed by Michael Bay.
+DEUS VULT
+GLORIA VICTORIA
+
+; ------------------- Firefighter section ----------------------
+ [Firefighter]
+ Name=The Undead Firefighter
+Color1=$00FF0000
+Color2=$00FF0000
+Skin_Color=$00FF0000
+Hair_Color=$00DD6F00
+Hair=1
+Headgear=0
+Chain=0
+Chat_Frequency=4
+Chat_Kill=Uuuuuh, that's gotta burn!
+Chat_Dead=I hate Khazad-dum!
+Chat_Lowhealth=My flame is dying!
+Chat_SeeEnemy=I am the flame of Udun! And i WILL pass!
+Chat_Winning=I am the god of hellfire, and i bring you FIRE!
+
+[TauntsHeat_Firefighter]
+I am the god of hellfire, and i bring you FIRE!
+Feel the heat!
+Ready for some BBQ?
+I love bathing in Napalm!
+I like the smell of your blistering skin in the morning!
+I will turn this place into a volcano!
+Turn da heat up!
+I fight with fire! Have some!
+It's way too cold in here!
+Relight my fire! Your brain is my only desire!
+
+[TauntsPortal_Firefighter]
+Oh this evil-looking thing? It's harmless, trust me!
+Volunteers wanted for our big groundfire tour!
+Come on flames! Spread out!
+
+[TauntsTrap_Firefighter]
+Feeling trapped?
+Oh snap! A trap!
+IT'S A TRAP!!!
+IT'S A TRAP!!!
+IT'S A TRAP!!!
+
+[TauntsTrail_Firefighter]
+I'm walking on fire! Woahoaa!
+These boots were made for glowing...
+
+[Flame]
+Name=Flame
+Color1=$000036A6
+Color2=$00555500
+Skin_Color=$FFFF00
+Hair_Color=$00DD6F00
+Hair=1
+Headgear=0
+Chain=0
+Chat_Frequency=4
+Chat_Kill=I'm so hot!
+Chat_Dead=Hot damn!
+Chat_Lowhealth=Running out of gas...
+Chat_SeeEnemy=Come on baby, light my fire!
+Chat_Winning=Moar!
+
+[Trap]
+Name=Trap
+Dummy=1
+Color1=$FF0000
+Color2=$FF0000
+Skin_Color=$00FF0000
+Hair_Color=$00FF0000
+Hair=3
+Headgear=1
+Chain=0
+Chat_Frequency=5
+Chat_Kill=Feeling trapped?
+Chat_Dead=
+Chat_Lowhealth=I'm a crappy trappy!
+Chat_SeeEnemy=
+Chat_Winning=
+
+; -------------------6. Satan (1+2) section ----------------------
+[Satan]
+Name=Satan
+Color1=$00FF0000
+Color2=$00000000
+Skin_Color=$00000000
+Hair_Color=$00FF0000
+Hair=1
+Headgear=0
+Chain=0
+Chat_Frequency=7
+Chat_Kill=I'm gonna fill you with my hot demon gel!
+Chat_Dead=From whence i came, i shall remain, until i am complete again! 
+Chat_Lowhealth=Ouch! My fucking horn!
+Chat_SeeEnemy=I can't wait to take you back to hell!
+Chat_Winning=I am complete!
+
+[TauntsPenta_Satan]
+You shall burn in hell!
+You shall burn in hell!
+Burn!
+Burn!
+Die!!!
+Die!!!
+Your mother sucks cocks in hell!
+Your mother sucks cocks in hell!
+This looks so pretty, doesn't it?
+I always liked to scribble signs...
+Look! Glowy sign in the sky!
+One sign to rule them all, one sign to find them...
+...one sign to bring them all and in the darkness bind them
+
+[TauntsHellRain_Satan]
+Hellrain!
+Come, oh hellrain!
+Inferno unleashed!
+The Devil's Artillery! 
+This is just a fraction of what awaits you in hell!
+I am pissing on you all!
+
+[TauntsLightning_Satan]
+Taste my lightning, sucker!
+Let me enlighten you!
+Feeling blinded?
+Flashbang!
+I cast lightning, not fricking Zeus!
+Zing!
+
+[TauntsMinions_Satan]
+I can do it too, Plague!
+More demons, more fun!
+6 little Minions, were playing some LS...
+Unleash the KRAKEN!! Oh we're out of KRAKEN? -.- Unleash the useless minions, i guess.
+
+
+[TauntsArrow_Satan]
+This arrow shall bring death!
+Amor's arrow, just a bit twisted..
+The Hunger Games have begun…
+I like to dress up as Robin Hood, you know?
+Evade this!
+
+[TauntsExplosion_Satan]
+Kabooom!
+Hahaha, you didn't see that coming, did you?
+And you thought ticking bomb was scary!
+Fear the satanic pyromancer!
+Not even Helm's Deep can resist this!
+Forget C4, this is C666!
+Supernova!
+
+[Minion]
+Name=Minion
+Color1=$397769
+Color2=$000000
+Skin_Color=$555555
+Hair_Color=$555555
+Hair=1
+Headgear=0
+Chain=0
+Chat_Frequency=10
+Chat_Kill=Daddy, look what i did!
+Chat_Dead=I'm going back home...
+Chat_Lowhealth=Wow i can bleed... interesting
+Chat_SeeEnemy=Come and play, fool!
+
+[Artifact]
+Name=Living Artifact
+Color1=$366822
+Color2=$996600
+Skin_Color=$808080
+Hair_Color=$FFFFFFFF
+Hair=4
+Headgear=0
+Chain=0
+Chat_Frequency=7
+Chat_Kill=I came to shield my master, i brought you pain.
+Chat_Dead=Oh Master, i left you vulnerable!
+Chat_Lowhealth=Master, i am failing you!
+Chat_SeeEnemy=I am the unholy protection.
+Chat_Winning=Brains!
+
+; -------------------7. Butcher and parts ----------------------
+[Butcher]
+Name=The Undead Butcher
+Color1=clWhite
+Color2=$AA5500
+Skin_Color=$0000FF00
+Hair_Color=$0000FF00
+Hair=4
+Headgear=0
+Chain=0
+Chat_Frequency=8
+Chat_Kill=You DO have a tasty brain. Don't let anyone tell you otherwise
+Chat_Dead=Meat here!!
+Chat_Lowhealth=I feel butcherd...
+Chat_SeeEnemy=I am the fury in this slaughterhouse!
+Chat_Winning=Gorrrrrrre!
+
+[Parts]
+Liverwust=0
+Pig head=0
+Cow=0
+Bowels=0
+Part 01=0
+Part 02=0
+
+[TauntsMadness_Butcher]
+Roar!!
+Come here! 
+Meep, meep!
+Accelerating to Warp 8!
+Full impulse drive!
+This is getting gory!
+Gooooreee!
+You've made a bloody mistake!
+Look at this mess!
+I outrun Usain Bolt!
+
+
+; ---------- 8. Priest and altar boys. You better knock before entering. -------
+[Priest]
+Name=Perished priest
+Color1=$305261
+Color2=$CC00CC
+Skin_Color=$296214
+Hair_Color=$FFFFFF
+Hair=4
+Headgear=0
+Chain=0
+Chat_Frequency=4
+Chat_Kill=Sanctification!
+Chat_Dead=Pretty boys always hurt you in the end!
+Chat_Lowhealth=Beam me up, Scotty!
+Chat_SeeEnemy=Want to have an "experience" in the crypta?
+Chat_Winning=Next!
+
+
+[TauntsTeleport_Priest]
+That's mine!
+Gimme some health!
+Energy!
+Serve me, little boy!
+Come here, little sinner!
+I just touched you!
+I've got healing hands, come closer! 
+Come to daddy!
+Oh look, i brought Satan's horn. Can you see it?
+Confession will be a relief for you!
+Yes, confess your little sins, boy.
+Your sins are so arousing...
+
+[AltarServer]
+Name=Altar boy
+Color1=$669415
+Color2=$9999FF
+Skin_Color=$695928
+Hair_Color=$FFFFFF
+Hair=4
+Headgear=0
+Chain=0
+Chat_Frequency=4
+Chat_Kill=A pray for you, master.
+Chat_Dead=At least i dont get violated anymore.
+Chat_Lowhealth=And lead us not into temptation, but deliver your glorious evil.
+Chat_SeeEnemy=Hallowed be Satan's name.
+Chat_Winning=Yessssss
+
+; -------------------9. Plague and friends ----------------------
+[Plague]
+Name=Plague
+Color1=$134469
+Color2=$003F00
+Skin_Color=$00F1FBA0
+Hair_Color=$003F00
+Hair=1
+Headgear=0
+Chain=0
+Chat_Frequency=3
+Chat_Kill=Adding another face to my collection!
+Chat_Dead=The manyfaced god will return!
+Chat_Lowhealth=You're such a plague!
+Chat_SeeEnemy=I brought some friends to this party!
+Chat_Winning=Brains!
+
+[TauntsRevive_Plague]
+I got plenty of friends in reserve!
+Rise again!
+Rise again!
+Rise again!
+Rise!
+Rise!
+You know nothing, Jon Snow!
+The undead army keeps growing!
+Winter has come!
+Rise, zombies!
+Rise, zumbis!
+Rise, zombies!
+Get up, minions!
+Get up, minions!
+Get up, minions!
+
+; -------------------10. Placeable dummies ----------------------
+; Dummy 1 = AI disabled, bot wont move or use taunts.
+
+[Sentry]
+Name=Sentry
+Dummy=1
+Color1=$FFFFFFFF
+Color2=$00282828
+Skin_Color=$00110011
+Hair_Color=$00FF4A4A
+Hair=4
+Headgear=0
+Chain=1
+Chat_Frequency=2
+Chat_Kill=
+Chat_Dead=
+Chat_Lowhealth=Outpost Delta is being overrun!
+Chat_SeeEnemy=Triggerd!
+Chat_Winning=
+
+[Scarecrow]
+Name=Scarecrow
+Dummy=1
+Color1=$00EAEA00
+Color2=$00EAEA00
+Skin_Color=$00BEBEBE
+Hair_Color=$00C1C100
+Hair=4
+Headgear=0
+Chain=2
+Chat_Frequency=2
+Chat_Kill=You scared, crow?
+Chat_Dead=Ill make some Angry Birds
+Chat_Lowhealth=Too many.. i.. cannot.. stop them!
+Chat_SeeEnemy=Go away, birds! This field belongs to me!
+Chat_Winning=Brains!
+
+; ------------11. special zombs from 'normal zombies' section (=1) ----------
+; the following help is a PLACEHOLDER. These numbers sadly are not correct :(
+; hair: 1= army, 2=punk, 3=Mr.T, 4=normal, 5=Dreadlocks
+; headgear: 1= helmet, 2=cap, 3=nothing
+; chain:  1= no chain, 2=dog tags, 3=goldchain
+; END OF PLACEHOLDER
+
+[Zombie tk`]
+Name=Zombie tk`
+Color1=$118540
+Color2=$507922
+Skin_Color=$678861
+Hair_Color=$FF66FF
+Hair=1
+Headgear=0
+Chain=0
+Chat_Frequency=4
+Chat_Kill=I didn't even have to use baka for this one!
+Chat_Dead=Coding this mess was a mistake!
+Chat_Lowhealth=Falcon, did you spray me with law again?
+Chat_SeeEnemy=I will Hax you to death. You know i can!
+Chat_Winning=Gorrrrrrre!
+
+[Sideshow Bob]
+Name=Sideshow Bob
+Color1=$427438
+Color2=$008A6B42
+Skin_Color=$FFCC00
+Hair_Color=$00060602
+Hair=1
+Headgear=0
+Chain=0
+Chat_Frequency=4
+Chat_Kill=Die Bart. Die!
+Chat_Dead=Vendetta!
+Chat_Lowhealth= Will you children stop tormenting me?
+Chat_SeeEnemy=Don't bother crying out in terror. In space no one can hear you scream.
+Chat_Winning=
+
+[Sir Guttalot]
+Name=Sir Guttalot
+Color1=$329140
+Color2=$00000000
+Skin_Color=$00FF00FF
+Hair_Color=$0000FF00
+Hair=3
+Headgear=0
+Chain=0
+Chat_Frequency=4
+Chat_Kill=HaHaHaHaHa
+Chat_Dead=I'll come again!
+Chat_Lowhealth=OMG, not again!
+Chat_SeeEnemy=I will rip ur guts out!
+Chat_Winning=U mean like moan!
+
+; 12. Zombify: When the dead player respawns as zombie
+[TauntsInfection_Player]
+Now I will eat you!
+Roar!
+Fear me!
+Grrhhr!
+Arrggh!
+I am a winner. I wont play with you losers anymore.
+Here i come!
+Here I go again on my own. Goin' down the only road I've ever known.
+What's in your head, in your head, humy, humy, humy?
+
+; .d88888b   88888888b  a88888b. d888888P dP  .88888.  888888ba     dP dP
+; 88.    "'  88        d8'   `88    88    88 d8'   `8b 88    `8b    88 88
+; `Y88888b. a88aaaa    88           88    88 88     88 88     88    88 88
+;       `8b  88        88           88    88 88     88 88     88    88 88
+; d8'   .8P  88        Y8.   .88    88    88 Y8.   .8P 88     88    88 88
+;  Y88888P   88888888P  Y88888P'    dP    dP  `8888P'  dP     dP    dP dP
+
+; dP     dP   .d888888  dP    dP     888888ba   .88888.  d888888P .d88888b
+; 88     88  d8'    88  Y8.  .8P     88    `8b d8'   `8b    88    88.    "'
+; 88aaaaa88a 88aaaaa88a  Y8aa8P     a88aaaa8P' 88     88    88    `Y88888b.
+; 88     88  88     88  d8'  `8b     88   `8b. 88     88    88          `8b
+; 88     88  88     88  88    88     88    .88 Y8.   .8P    88    d8'   .8P
+; dP     dP  88     88  dP    dP     88888888P  `8888P'     dP     Y88888P
+
+
+
+; -------------------1. normal Haxzombies ----------------------
+; Zombies with special taunts and look are marked with 1
+
+[HaxZombies]
+Foobarnaut=0
+SQL Injector=0
+Will code for brains=0
+Mathurbator=0
+sizeof(YourMom)=0
+Null pointer=0
+Dangling pointer=0
+Cod-e-rection=0
+The lost X=0
+Simon the Sineful=0
+Maths Survivor=0
+Hex Pirate=0
+0day Timmy=0
+Unit1.pas=0
+throw up=0
+do eat() while (hungry)=0
+divided by zero=0
+SIGKILL'd=0
+Zombie process=0
+Dead lock=0
+public vomit eat(brain)=0
+Garbage collector=0
+Rubber duck=0
+Skipped by GC=0
+Unaligned stack=0
+Overflowing Henry=0
+The coffe converter=0
+Pizza eater=0
+NP-Dead=0
+Schroedinger Zombie=0
+Random output=0
+Syntax error=0
+New folder(5) - copy=0
+MotherHacker=0
+/dev/null=0
+Script kiddy=0
+Man in the middle=0
+Snack overflow=0
+RNG=1
+No more Dev tk`=1
+
+[HaxTauntsKill]
+Your life got hacked!
+DoDamage executed.
+Game over..
+Please insert coin.
+
+[HaxTauntsDie]
+Respawning in 3.. 2... 1...
+This process cannot be terminated.
+
+[HaxTauntsDmg]
+Hitting this machine doesnt fix it, btw.
+Lifebar: low
+
+[HaxTauntsSee]
+After so many years of developement - we still just charge mindlessly
+Hello World!
+Intruder alert.
+
+[HaxTauntsWin]
+Hacked.
+
+
+; ------------------- 2. Haxvomits ----------------------
+[HaxVomiting]
+FPS Spraytard=0
+cowboy coder=0
+shotgun coder=0
+Random Bullet Generator=0
+unwanted output=0
+coffee ejection=0
+reverse processing=0
+Aimbot preAlpha=0
+rejected code=0
+Norton Antivirus=1
+Sasser=0
+phishing mail=0
+RAT=0
+malware mod=0
+keystroke logging=0
+seeding tool=0
+viral marketing=0
+
+[HaxTauntsKill_Vomiting]
+Logged.
+Logged.
+You got annihilated by a piece of code.
+
+[HaxTauntsDie_Vomiting]
+Compilation failed.
+I got blacklisted
+
+[HaxTauntsDmg_Vomiting]
+emergency mode enabled
+
+[HaxTauntsSee_Vomiting]
+Backdoor aquired.
+Spray that!
+
+[HaxTauntsWin_Vomiting]
+Win.
+
+[HaxTauntsVomit_Vomiting]
+My output rate is great!
+001100011011100
+!ping !ping !ping
+Read this morsecode!
+0010011110
+Here, have a shot!
+I don't need to aim.
+
+; ------------------- 3. Haxburning zombies ----------------------
+[HaxBurning]
+Firewall bypass=0
+Fan shutdown=0
+fake thermal grease=0
+Overheat=0
+Short-circuit=0
+lose wires cause fires=0
+electrical fire=0
+Nero Burning ROM=0
+X-CD-Roast=0
+Roxio WinOnCD=0
+K3b=0
+ImgBurn=0
+BashBurn=0
+Brasero=0
+CDBurnerXP=0
+Alcohol 120%=0
+Cdrkit=0
+
+[HaxTauntsKill_Burning]
+Is that the smell of your motherboard melting?
+Your GPU is on fire!
+
+[HaxTauntsDie_Burning]
+Heattreatment aint nice...
+Feel... sooo... cold...
+
+[HaxTauntsDmg_Burning]
+Stop ventilating so much!
+
+[HaxTauntsSee_Burning]
+Your thermal grease is useless!
+I am shutting down your fan.
+So you think your homebrew-watercooling will save you?
+
+[HaxTauntsWin_Burning]
+Burn!
+
+
+; ------------------- 4. Haxkamikazes and ticking ----------------------
+[HaxKamikaze]
+Fork bomb=0
+Timed bomb=0
+%0|%0=0
+:(){ :|:& };:=0
+Yahoo;=0
+zip bomb=0
+XML bomb=0
+The disgruntled bomb=0
+Youtube Comments=0
+Reddit community=0
+Trending Now=0
+Tumblr post=0
+Shitstorm=0
+Facebook timelife=0
+Friendster=0
+Myspace=0
+
+
+[HaxTauntsKill_Kamikaze]
+Resource starvation complete.
+The shitstorm got it.
+Wow, that post exploded into your face!
+The bomb has ben planted.
+
+[HaxTauntsDie_Kamikaze]
+Program terminated.
+This Trend is over.
+I thought there was easy money in this.
+Social advertisment failed me.
+The bomb has ben defused.
+
+[HaxTauntsDmg_Kamikaze]
+Restrictions detected.
+
+[HaxTauntsSee_Kamikaze]
+This program runs forever.
+We will crash your system.
+We do bomb in several meanings of the word.
+Hush! Hide behind your Antivirus!
+
+[HaxTauntsWin_Kamikaze]
+Win
+
+[HaxKamikazeBoss]
+Name=Logic bomb
+Dummy=0
+Color1=$FF0000
+Color2=$FF0000
+Skin_Color=$00FF0000
+Hair_Color=$00FF0000
+Hair=1
+Headgear=0
+Chain=0
+Chat_Frequency=7
+Chat_Kill=Purpose fulfilled.
+Chat_Dead=
+Chat_Lowhealth=
+Chat_SeeEnemy=My timer seems broken, could you look at sourcecode?
+Chat_Winning=
+
+[HaxTauntsExplode_TickingBomb]
+I have ben waiting for this moment in time.
+I have ben programmed for this.
+
+[HaxTauntsExplodeClose_TickingBomb]
+ALL CONDITIONS MET.
+procedure Explode (GoBoom: boolean);
+
+; ------------------- HaxFirefighter section ----------------------
+[HaxFirefighter]
+Name=Snapdragon 810
+Color1=$00FF0000
+Color2=$00FF0000
+Skin_Color=$00FF0000
+Hair_Color=$00DD6F00
+Hair=1
+Headgear=0
+Chain=0
+Chat_Frequency=4
+Chat_Kill=Turn up the heat!
+Chat_Dead=Overheated!
+Chat_Lowhealth=Overheating!
+Chat_SeeEnemy=Entering benchmark test.
+Chat_Winning=Burn.
+
+[HaxTauntsHeat_Firefighter]
+This CPU is on FIRE!
+
+[HaxTauntsPortal_Firefighter]
+Multithreading enabled.
+
+[HaxTauntsTrap_Firefighter]
+Section is under construction.
+Wrong password.
+Access denied.
+
+[HaxTauntsTrail_Firefighter]
+I am glowing red hot.
+
+[HaxFlame]
+Name=Electrial spark
+Color1=$000036A6
+Color2=$00555500
+Skin_Color=$FFFF00
+Hair_Color=$00DD6F00
+Hair=1
+Headgear=0
+Chain=0
+Chat_Frequency=4
+Chat_Kill=I'm so hot!
+Chat_Dead=Hot damn!
+Chat_Lowhealth=short-circuited
+Chat_SeeEnemy=Ready to spread.
+Chat_Winning=Moar!
+
+[HaxTrap]
+Name=Access denied
+Dummy=1
+Color1=$FF0000
+Color2=$FF0000
+Skin_Color=$00FF0000
+Hair_Color=$00FF0000
+Hair=3
+Headgear=1
+Chain=0
+Chat_Frequency=5
+Chat_Kill=
+Chat_Dead=
+Chat_Lowhealth=
+Chat_SeeEnemy=
+Chat_Winning=
+
+; ------------------- 6. HaxSatan (1+2) section ----------------------
+[HaxSatan]
+Name=Windows 98
+Color1=$0000ff
+Color2=$008080
+Skin_Color=$0000FF
+Hair_Color=$00ff00
+Hair=1
+Headgear=0
+Chain=0
+Chat_Frequency=5
+Chat_Kill=Drive C does not contain a valid Fat or Fat32 partition.
+Chat_Dead=Shutting down...
+Chat_Lowhealth=Are you sure you want to shut down Windows 98?
+Chat_SeeEnemy=Your setup Doesn't support Windows 98
+Chat_Winning=I am complete!
+
+[HaxTauntsPenta_Satan]
+This is just my makeshift firewall...
+Look at the pretty Windows-logo!
+
+[HaxTauntsHellRain_Satan]
+Welcome to the exciting new World of Windows 98
+Please wait, while Setup completes installation...
+
+[HaxTauntsLightning_Satan]
+Bluescreen!
+A fatal exception 0E has ocurred.
+A fatal exception 0D has ocurred.
+
+
+[HaxTauntsMinions_Satan]
+Windows has not ben properly shut down.
+Scanning Drive C: for errors.
+Launching ScanDisc...
+I am sending you Clippit the helpful paperclip.
+
+[HaxTauntsArrow_Satan]
+This program has performed an illegal operation and will be terminated.
+
+[HaxTauntsExplosion_Satan]
+A fatal error has been detected by the Java Runtime Environment.
+Emergency shutdown!
+put THIS in your Big Bang Theory!
+
+[HaxMinion]
+Name=ScanDisc
+Color1=$0000aa
+Color2=$0000aa
+Skin_Color=$aaaaaa
+Hair_Color=$55ffff
+Hair=1
+Headgear=0
+Chain=0
+Chat_Frequency=5
+Chat_Kill=Check complete.
+Chat_Dead=Scan aborted. No errors have been removed.
+Chat_Lowhealth=Are you sure, you want to quit ScanDisc?
+Chat_SeeEnemy=One or more of your disk drives have errors on it.
+
+[HaxArtifact]
+Name=Firewall
+Color1=$366822
+Color2=$996600
+Skin_Color=$808080
+Hair_Color=$FFFFFFFF
+Hair=4
+Headgear=0
+Chain=0
+Chat_Frequency=7
+Chat_Kill=Disabling thread... done.
+Chat_Dead=Firewall disabled.
+Chat_Lowhealth=Firewall is outdated. Need update.
+Chat_SeeEnemy=You lack the necessary Accesslvl to perfom this action.
+Chat_Winning=Brains!
+
+; -------------------7. HaxButcher and parts ----------------------
+[HaxButcher]
+Name=Compiler's fault
+Color1=clWhite
+Color2=$995500
+Skin_Color=$00FF0000
+Hair_Color=$00663300
+Hair=1
+Headgear=0
+Chain=0
+Chat_Frequency=6
+Chat_Kill=__static_initialization_and_destruction_0
+Chat_Dead=
+Chat_Lowhealth=Low Battery
+Chat_SeeEnemy=Target aquired
+Chat_Winning=
+
+[HaxParts]
+Segmentation fault=0
+Access violation=0
+Buffer overflow=0
+EnEsCe's multithreading=0
+A random bug=0
+Exploit=0
+
+[HaxTauntsMadness_Butcher]
+Accelerating to Warp 8!
+Full impulse drive!
+My 386er cpu supports turbo mode!
+
+
+; ---------- 8. HaxPriest and code monkeys  -------
+
+[HaxPriest]
+Name=Hackerman
+Color1=$305261
+Color2=$AAAAAA
+Skin_Color=$146229
+Hair_Color=$FFFFFF
+Hair=4
+Headgear=0
+Chain=0
+Chat_Frequency=10
+Chat_Kill=Hacked.
+Chat_Dead=I will instahack myself back to life!
+Chat_Lowhealth=I can hack time. I don't fear you!
+Chat_SeeEnemy=I type fast on my Computor!
+Chat_Winning=Denied.
+
+[HaxTauntsTeleport_Priest]
+execute MovePlayer [Boss.ID]
+Coordinates alterd.
+HP replenished
+I love this piece of code.
+Want to do coding in my nerdbunker?
+
+[HaxAltarServer]
+Name=Code Monkey
+Color1=$7C3B0B
+Color2=$7C3B0B
+Skin_Color=$7C3B0B
+Hair_Color=$000000
+Hair=0
+Headgear=0
+Chain=0
+Chat_Frequency=4
+Chat_Kill=Code Monkey havelong walk back to the cubical...
+Chat_Dead=I've got big fuzzy secret heart.
+Chat_Lowhealth=Maybe wanna write goddamn login-page yourself?
+Chat_SeeEnemy=Code monkey not crazy. Just proud.
+Chat_Winning=
+
+; -------------------9. HaxPlague and friends ----------------------
+[HaxPlague]
+Name=DDoS Attack
+Color1=$FFFFFF
+Color2=$FFFFFF
+Skin_Color=$000000
+Hair_Color=$FFFFFF
+Hair=1
+Headgear=0
+Chain=0
+Chat_Frequency=3
+Chat_Kill=Denial of service, my friend.
+Chat_Dead=Botnet has failed me
+Chat_Lowhealth=P2P connection not working right...
+Chat_SeeEnemy=Handle these kajillion requests please.
+Chat_Winning=Brains!
+
+[HaxTauntsRevive_Plague]
+Adding more bots to botnet
+More requests incoming!
+Handle this, server!
+You are getting smurfed, friend.
+Brute force!
+
+; -------------------10. HaxPlaceable dummies ----------------------
+; Dummy 1 = AI disabled, bot wont move or use taunts.
+
+[HaxSentry]
+Name=Antivirus Software
+Dummy=1
+Color1=$FFFFFFFF
+Color2=$00282828
+Skin_Color=$00110011
+Hair_Color=$00FF4A4A
+Hair=4
+Headgear=0
+Chain=1
+Chat_Frequency=2
+Chat_Kill=
+Chat_Dead=
+Chat_Lowhealth=Outpost Delta is being overrun!
+Chat_SeeEnemy=Triggerd!
+Chat_Winning=
+
+[HaxScarecrow]
+Name=Decoy
+Dummy=1
+Color1=$00EAEA00
+Color2=$00EAEA00
+Skin_Color=$00BEBEBE
+Hair_Color=$00C1C100
+Hair=4
+Headgear=0
+Chain=2
+Chat_Frequency=2
+Chat_Kill=You scared, crow?
+Chat_Dead=Ill make some Angry Birds
+Chat_Lowhealth=Too many.. i.. cannot.. stop them!
+Chat_SeeEnemy=Go away, birds! This field belongs to me!
+Chat_Winning=Brains!
+
+; ------------11. special zombs from other zombies section (=1) ----------
+; the following help is a PLACEHOLDER. These numbers sadly are not correct :(
+; hair: 1= army, 2=punk, 3=Mr.T, 4=normal, 5=Dreadlocks
+; headgear: 1= helmet, 2=cap, 3=nothing
+; chain:  1= no chain, 2=dog tags, 3=goldchain
+; END OF PLACEHOLDER
+
+[No more Dev tk`]
+Name=No more Dev tk`
+Color1=$118540
+Color2=$507922
+Skin_Color=$678861
+Hair_Color=$FF66FF
+Hair=1
+Headgear=0
+Chain=0
+Chat_Frequency=4
+Chat_Kill=I didn't even have to use baka for this one!
+Chat_Dead=Coding this mess was a mistake!
+Chat_Lowhealth=Falcon, did you spray me with law again?
+Chat_SeeEnemy=I will Hax you to death. You know i can!
+Chat_Winning=Gorrrrrrre!
+
+[RNG]
+Name=RNG
+Color1=$A62684
+Color2=$461ACE
+Skin_Color=$D0C546
+Hair_Color=$11A906
+Hair=3
+Headgear=2
+Chain=2
+Chat_Frequency=2
+Chat_Kill=Wow, this was random!
+Chat_Dead=Throw the dice once more, baby!
+Chat_Lowhealth=Calculating health level...
+Chat_SeeEnemy=9, 9, 9, 9, 9...
+Chat_Winning=U mean like moan!
+
+[Norton Antivirus]
+Name=Norton Antivirus
+Color1=$FFBF00
+Color2=$FFBF00
+Skin_Color=$FFBF00
+Hair_Color=$000000
+Hair=1
+Headgear=3
+Chain=0
+Chat_Frequency=2
+Chat_Kill=Your life was blocked by Norton Antivirus.
+Chat_Dead=NOOO, YOU CANNOT SIMPLY UNINSTALL ME!
+Chat_Lowhealth=WHAT? You found the removal tool on the webs?
+Chat_SeeEnemy=What, you thought i would actually help you?
+Chat_Winning=I will never say this line.
+
+; 12. HaxZombify: When the dead player respawns as zombie
+[HaxTauntsInfection_Player]
+That's it, i am switching to winner's team!
+Respawn! Wohoo!
