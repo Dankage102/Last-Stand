@@ -423,6 +423,16 @@ begin
 			end else b:=true;
 			Name := 'Beer';
 		end;
+		
+		'vodka': begin
+			if Amount < 1 then Amount := 1;
+			if Cop.SupplyPoints >= VESTCOST * Amount then
+			begin
+				Cop.SupplyPoints := Cop.SupplyPoints - VESTCOST * Amount;
+				Objects_SpawnX(Cop.ID, OBJECT_VEST_KIT, Amount);
+			end else b:=true;
+			Name := 'Vodka';
+		end;
 
 		'vest': begin
 			if Amount < 1 then Amount := 1;

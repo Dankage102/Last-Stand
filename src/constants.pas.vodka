@@ -92,6 +92,7 @@ const
 	
 	// Costs
 	BEERCOST =    2;
+	VODKACOST =    5;
 	MEDICOST =    2;
 	NADECOST =    2;
 	NADEPACK =    5;

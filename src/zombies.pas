@@ -632,7 +632,7 @@ begin
 							NewPlayer.Free;
 						end;
 						AutoBrain := true;
-					end else AutoBrain := false;
+					end else AutoBrain := DEFAULT_BOSS_BRAIN;
 				end else begin
 					NewPlayer := BW_CreatePriest(HackermanMode);
 					NewPlayer.Team := ZOMBIETEAM;
@@ -670,7 +670,7 @@ begin
 							NewPlayer.Free;
 						end;
 						AutoBrain := true;
-					end else AutoBrain := false;
+					end else AutoBrain := DEFAULT_BOSS_BRAIN;
 				end else begin
 					NewPlayer := BW_CreateKamikazeBoss(HackermanMode);
 					NewPlayer.Team := ZOMBIETEAM;
@@ -721,7 +721,7 @@ begin
 						end;
 						AutoBrain := true;
 					end else begin
-						AutoBrain := false;
+						AutoBrain := DEFAULT_BOSS_BRAIN;
 						hp := hp * 0.6;
 					end;
 				end else begin
@@ -840,7 +840,7 @@ begin
 						end;
 						AutoBrain := true;
 					end else begin
-						AutoBrain := false;
+						AutoBrain := DEFAULT_BOSS_BRAIN;
 						hp := hp * 0.5;
 					end;
 				end else begin
@@ -882,7 +882,7 @@ begin
 						end;
 						AutoBrain := true;
 					end else begin
-						AutoBrain := false;
+						AutoBrain := DEFAULT_BOSS_BRAIN;
 						hp := hp * 0.5;
 					end;
 				end else begin
